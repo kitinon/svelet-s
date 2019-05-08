@@ -1,6 +1,7 @@
 # svelet-s
 Serving SSR .svelte file
 
-npm start
+$ npm install  
+$ npm start
 
-open browser to http://localhost:3000
+open browser to http://localhost:3000/index.svelte
