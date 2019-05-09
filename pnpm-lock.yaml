@@ -1,5 +1,6 @@
 dependencies:
   express: 4.16.4
+  node-fetch: 2.5.0
   svelte: 3.2.1
 lockfileVersion: 5
 packages:
@@ -234,6 +235,12 @@ packages:
       node: '>= 0.6'
     resolution:
       integrity: sha512-hZXc7K2e+PgeI1eDBe/10Ard4ekbfrrqG8Ep+8Jmf4JID2bNg7NvCPOZN+kfF574pFQI7mum2AUqDidoKqcTOw==
+  /node-fetch/2.5.0:
+    dev: false
+    engines:
+      node: 4.x || >=6.0.0
+    resolution:
+      integrity: sha512-YuZKluhWGJwCcUu4RlZstdAxr8bFfOVHakc1mplwHkk8J+tqM1Y5yraYvIUpeX8aY7+crCwiELJq7Vl0o0LWXw==
   /on-finished/2.3.0:
     dependencies:
       ee-first: 1.1.1
@@ -372,4 +379,5 @@ packages:
       integrity: sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 specifiers:
   express: ^4.16.4
+  node-fetch: ^2.5.0
   svelte: ^3.2.1

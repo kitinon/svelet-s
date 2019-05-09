@@ -1,22 +1,17 @@
 <script>
-  import Hello from './hello.svelte'
-  let name = 'Tan'
+  import NewsList from './newsList.svelte'
+  export let news
 </script>
+
+<style>
+	@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+</style>
 
 <html lang="en">
 <head></head>
 <body>
-  <Hello {name}/>
-  <span class="square"></span>
+<div class="row">	
+	<NewsList {news} />
+</div>
 </body>
 </html>
-
-<style>
-.square {
-  display: block;
-  width: 50px;
-  height: 50px;
-  background: lightgreen;
-  border: 1px solid black;
-}
-</style>
